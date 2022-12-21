@@ -1,6 +1,6 @@
-# Frontend Mentor - Interactive rating component solution
+# Frontend Mentor - Social proof section solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-D9FsizFu0H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-e3F34Nq5wS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -24,8 +24,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-D9FsizFu0H)
-- Live Site URL: [Live site URL here](https://nbuylding.github.io/Interactive-rating-component/)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/social-proof-section-e3F34Nq5wS)
+- Live Site URL: [Live site URL here](https://nbuylding.github.io/Social-proof-section)
 
 ## My process
 
