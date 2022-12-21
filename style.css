@@ -1,0 +1,247 @@
+* {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('images/bg-pattern-top-desktop.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-container {
+    padding: 10rem;
+    width: 900px;
+}
+
+.background-bottom {
+    position: absolute;
+    top: 150px;
+}
+
+.container-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* left */
+.container-top .left {
+    grid-column: 1 / 1;
+}
+
+.container-top .left h1 {
+    font-size: 3rem;
+    color: hsl(300, 43%, 22%);
+    padding-right: 10rem;
+    padding-bottom: 2rem;
+}
+
+.container-top .left p {
+    color: hsl(303, 10%, 53%);
+    padding-right: 7rem;
+    line-height: 1.3rem;
+    padding-bottom: 3rem;
+    font-weight: 500;
+}
+
+/* right */
+.container-top .right {
+    grid-column: 2 / 2;
+    background-color: hsl(300, 24%, 96%);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container-top .right span {
+    display: flex;
+}
+
+.container-top .right span#top {
+    padding: 1rem;
+    justify-content: left;
+}
+
+.container-top .right span#middle {
+    justify-content: center;
+    padding: 1rem;
+}
+
+.container-top .right span#bottom {
+    justify-content: right;
+    padding: 1rem;
+}
+
+.container-top .right span img{
+    padding-right: 1rem;
+}
+
+.container-top .right span p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+/* bottom */
+.container-bottom {
+    display: flex;
+    margin: 0 auto;
+    gap: 1.5rem;
+}
+
+.container-bottom .smith {
+    align-items: start;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+.container-bottom .smith span {
+    display: flex;
+}
+
+.container-bottom .smith span img {
+    border-radius: 50%;
+    width: 45px;
+}
+
+.container-bottom .smith span p {
+    font-weight: 500;
+    padding-left: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.container-bottom .smith em#buyer {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+
+.container-bottom .smith p#buyer {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.container-bottom .smith blockquote {
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-top: 1.5rem;
+    color: hsl(300, 24%, 96%);
+}
+
+.container-bottom .roberts {
+    align-items: center;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    padding: 2rem;
+}
+
+.container-bottom .roberts span {
+    display: flex;
+}
+
+.container-bottom .roberts span img {
+    border-radius: 50%;
+    width: 45px;
+}
+
+.container-bottom .roberts span p {
+    font-weight: 500;
+    padding-left: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.container-bottom .roberts em#buyer {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.container-bottom .roberts blockquote {
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-top: 1.5rem;
+    color: hsl(300, 24%, 96%);
+}
+
+.container-bottom .wallace {
+    align-items: flex-end;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-top: 4rem;
+    color: white;
+    padding: 2rem;
+}
+
+.container-bottom .wallace span {
+    display: flex;
+}
+
+.container-bottom .wallace span img {
+    border-radius: 50%;
+    width: 45px;
+}
+
+.container-bottom .wallace span p {
+    font-weight: 500;
+    padding-left: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.container-bottom .wallace em#buyer {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.container-bottom .wallace p#buyer {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.container-bottom .wallace blockquote {
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-top: 1.5rem;
+    color: hsl(300, 24%, 96%);
+}
+
+@media only screen and (max-width: 375px) {
+    .social-container {
+        max-width: 300px;
+        height: auto;
+    }
+
+    .container-top {
+        display: block;
+    }
+
+    .container-top .left h1 {
+        padding-right: 0;
+    }
+
+    .container-top .left p {
+        padding-right: 0;
+    }
+
+    .container-top .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .container-top .right span {
+        flex-wrap: wrap;
+    }
+
+    .container-bottom {
+        display: block;
+        gap: 0.5rem;
+    }
+}
