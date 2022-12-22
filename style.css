@@ -55,13 +55,10 @@ body {
     background-color: hsl(300, 24%, 96%);
     margin-top: auto;
     margin-bottom: auto;
-    gap: 1.5rem;
-    border-radius: 10px;
 }
 
 .container-top .right span {
     display: flex;
-    gap: 1.5rem;
 }
 
 .container-top .right span#top {
